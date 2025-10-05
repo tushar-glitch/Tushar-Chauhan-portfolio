@@ -49,15 +49,6 @@ const FormSignGuestbook = () => {
               >
                 Sign In With Google
               </button>{' '}
-              or{' '}
-              <button
-                type="button"
-                className="text-blue-600 dark:text-blue-500"
-                disabled={isAuthLoading}
-                onClick={() => login('github.com')}
-              >
-                Sign In With Github
-              </button>
             </>
           ) : (
             <>

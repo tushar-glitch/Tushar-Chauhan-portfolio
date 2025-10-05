@@ -1,10 +1,11 @@
-import { FiBookOpen, FiClipboard, FiGlobe, FiHome, FiMail, FiUser } from 'react-icons/fi'
+import { FiBookOpen, FiBriefcase, FiClipboard, FiGlobe, FiHome, FiMail, FiUser } from 'react-icons/fi'
 
-export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3000'
+export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3001'
 
 export const NAV_ITEMS = [
   { path: '/', label: 'Home', Icon: FiHome },
   { path: '/about', label: 'About', Icon: FiUser },
+  { path: '/experience', label: 'Experience', Icon: FiBriefcase },
   { path: '/blog', label: 'Blog', Icon: FiGlobe },
   { path: '/projects', label: 'Projects', Icon: FiClipboard },
   { path: '/contact', label: 'Contact', Icon: FiMail },
@@ -14,6 +15,7 @@ export const NAV_ITEMS = [
 export const PAGE_TITLES = {
   '/': '._',
   '/about': 'About',
+  '/experience': 'Experience',
   '/blog': 'Blog',
   '/projects': 'Projects',
   '/contact': 'Contact',
@@ -21,23 +23,26 @@ export const PAGE_TITLES = {
 }
 
 export const SOCIALS = {
-  GH: 'https://github.com/dedeard',
-  IG: 'https://www.instagram.com/dedeard.js',
-  IN: 'https://www.linkedin.com/in/dedeard/',
-  WA: 'https://api.whatsapp.com/send?phone=6281343912883&text=%3CChatMe%20%2F%3E',
+  GH: 'https://github.com/tushar-glitch',
+  IG: 'https://www.instagram.com/glitch.tushar',
+  IN: 'https://www.linkedin.com/in/tushar-chauhan4/',
+  WA: 'https://api.whatsapp.com/send?phone=9149329927&text=%3CChatMe%20%2F%3E',
 }
 
-export const RESUME_URL = 'https://drive.google.com/file/d/1ytO7InWLVjJGryqRC0QZdc60bU1iesph/view?usp=sharing'
+export const RESUME_URL = 'https://drive.google.com/file/d/1UvTOynUSZlLxUrVEIP33BGUp7Im7Y0BA/view?usp=sharing'
 
-export const FORMSPREE_KEY = 'xoqyaqqe'
+export const EMAILJS = {
+  PUBLIC_KEY: '3dacBXVUOyTeCXMoS',
+  SERVICE_ID: 'service_8v4xdbs',
+  TEMPLATE_ID: 'template_5i9rzjf'
+}
 
 export const FIREBASE_CONFIG = {
-  apiKey: 'AIzaSyCVXW6MTdRVtYPTOoV92ruBQ3ZQcF5Ho0g',
-  authDomain: 'dede-ard.firebaseapp.com',
-  databaseURL: 'https://dede-ard.firebaseio.com',
-  projectId: 'dede-ard',
-  storageBucket: 'dede-ard.appspot.com',
-  messagingSenderId: '120930847292',
-  appId: '1:120930847292:web:eb77034f59e9ee37b65139',
-  measurementId: 'G-KJRFL3X06T',
+  apiKey: "AIzaSyBs_LvMMjV0QYkXVsmVBJidKkawX6fGqYg",
+  authDomain: "tushar-portfolio-e813e.firebaseapp.com",
+  projectId: "tushar-portfolio-e813e",
+  storageBucket: "tushar-portfolio-e813e.firebasestorage.app",
+  messagingSenderId: "467988257045",
+  appId: "1:467988257045:web:79607b3961cf85b1f0b11c",
+  measurementId: "G-Y76YYMQNWM"
 }

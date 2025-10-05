@@ -1,4 +1,4 @@
-import dedeard from '@/assets/dedeard.jpg'
+import tushar from '@/assets/tushar.jpg'
 import { RESUME_URL } from '@/constans/common'
 import type { Metadata } from 'next'
 import Image from 'next/image'
@@ -24,27 +24,26 @@ export default function AboutPage() {
       <PageTitle title="About" />
       <div className="md:flex">
         <div className="mb-5 md:w-56">
-          <Image src={dedeard} alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
+          <Image src={tushar} alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-xl font-bold">I’m Dede Ardiansya</h2>
+          <h2 className="mb-2 text-xl font-bold">I’m Tushar Chauhan</h2>
           <div className="mb-6">
             <p className="mb-1">
-              Full Stack Web Developer based in Makassar, Indonesia. <br />I try my best to make the code I write easy to read and
+              Full Stack Web Developer based in Gurgaon, India. <br />I try my best to make the code I write easy to read and
               understand.
             </p>
           </div>
-          <h2 className="mb-2 text-xl font-bold">Saya Dede Ardiansya</h2>
+          <h2 className="mb-2 text-xl font-bold">What I believe</h2>
           <div className="mb-6">
             <p className="mb-1">
-              Full Stack Web Developer berbasis di Makassar, Indonesia.
-              <br />
-              Saya mencoba yang terbaik untuk membuat kode yang saya tulis mudah untuk dibaca dan dipahami.
+            Great developers aren’t defined by the tools they use, but by how they think and solve problems.
             </p>
           </div>
-          <h2 className="mb-2 text-xl font-bold">Tech i love</h2>
+          <h2 className="mb-2 text-xl font-bold">Tech I love</h2>
           <div className="mb-6">
-            <p className="mb-1">TypeScript, Express.js, Laravel, Tailwind, Bootstrap, Vue and React.</p>
+            <p className="mb-1">Node.js, Express.js, C/C++, Javascript, Typescript, Python, Ruby on Rails</p>
+            <p className="italic text-[#2e92ff] font-medium">Hire me, and I'll make your tech stack my next favorite!</p>
           </div>
           <a
             download

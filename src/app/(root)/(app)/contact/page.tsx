@@ -1,4 +1,4 @@
-import { FORMSPREE_KEY, SOCIALS } from '@/constans/common'
+import { SOCIALS } from '@/constans/common'
 import type { Metadata } from 'next'
 import PageTitle from '../components/PageTitle'
 import ContactForm from './components/ContactForm'
@@ -25,19 +25,15 @@ export default function ContactPage() {
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">TEMPORARY ADDRESS</h2>
             <p className="text-sm leading-5">
-              Bali, Indonesia. <br />
-              80361
+              Gurgaon, India. <br />
+              122002
             </p>
           </div>
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">EMAIL ADDRESS</h2>
             <p className="text-sm leading-5">
               <a href="mailto:me@dedeard.my.id" rel="noopener" className="hover:text-yellow-600">
-                me@dedeard.my.id
-              </a>
-              <br />
-              <a href="mailto:dedeariansya1@gmail.com" rel="noopener" className="hover:text-yellow-600">
-                dedeariansya1@gmail.com
+                tusharc20001@gmail.com
               </a>
             </p>
           </div>
@@ -46,18 +42,18 @@ export default function ContactPage() {
             <p className="text-sm leading-5">
               <span>Call: </span>
               <a href="tel:+6281343912883" target="_blank" rel="noopener" className="hover:text-yellow-600">
-                +62 813-4391-2883
+                +91 9149329927
               </a>
               <br />
               <span>WhatsApp: </span>
               <a href={SOCIALS.WA} target="_blank" rel="noopener" className="hover:text-yellow-600">
-                +62 813-4391-2883
+                +91 9149329927
               </a>
             </p>
           </div>
         </div>
         <div className="lg:flex-1">
-          <ContactForm formspreeKey={FORMSPREE_KEY} />
+          <ContactForm />
         </div>
       </div>
     </>
