@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import PageTitle from '../components/PageTitle'
 import BlogPostItem from './components/BlogPostItem'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'Blog - Dede Ariansya',

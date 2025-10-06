@@ -1,7 +1,7 @@
 import { SOCIALS } from '@/constans/common'
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
-export const dynamic = 'force-dynamic'
+
 
 export default function HomePage() {
   return (

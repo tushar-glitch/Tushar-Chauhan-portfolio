@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import PageTitle from '../components/PageTitle'
 import ContactForm from './components/ContactForm'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'Contact - Dede Ariansya',

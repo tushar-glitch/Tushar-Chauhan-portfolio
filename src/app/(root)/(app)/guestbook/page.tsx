@@ -6,7 +6,7 @@ import PageTitle from '../components/PageTitle'
 import FormSignGuestbook from './components/FormSignGuestbook'
 import GuestbookMessages from './components/GuestbookMessages'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'Guestbook - Dede Ariansya',

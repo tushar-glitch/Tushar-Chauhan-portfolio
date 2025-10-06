@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PageTitle from '../components/PageTitle'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'About - Dede Ariansya',

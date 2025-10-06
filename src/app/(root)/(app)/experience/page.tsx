@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import PageTitle from '../components/PageTitle'
 import ExperienceTimeline, { IExperience } from './components/ExperienceTimeline'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'Experience - Tushar Chauhan',

@@ -6,7 +6,6 @@ export const NAV_ITEMS = [
   { path: '/', label: 'Home', Icon: FiHome },
   { path: '/about', label: 'About', Icon: FiUser },
   { path: '/experience', label: 'Experience', Icon: FiBriefcase },
-  { path: '/blog', label: 'Blog', Icon: FiGlobe },
   { path: '/projects', label: 'Projects', Icon: FiClipboard },
   { path: '/contact', label: 'Contact', Icon: FiMail },
   { path: '/guestbook', label: 'Guestbook', Icon: FiBookOpen },
