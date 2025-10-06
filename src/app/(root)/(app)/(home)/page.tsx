@@ -15,8 +15,8 @@ export default function HomePage() {
           <span className="grid grid-cols-2 justify-items-end">
             <span className="block"></span>
             <span className="block text-sm opacity-90">
-              A FULL STACK
-              <br /> WEB DEVELOPER
+              A SOFTWARE
+              <br /> DEVELOPER
             </span>
           </span>
         </h1>
